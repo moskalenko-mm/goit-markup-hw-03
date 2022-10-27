@@ -15,7 +15,6 @@ body {
 	font-family: Roboto, sans-serif;
 	letter-spacing: 0.03em;
 	font-size: 14px;
-
 	background-color: var(--primaty-white-color);
 }
 
@@ -48,8 +47,33 @@ body {
 	margin: -1px;
 }
 
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
 .header {
 	border-bottom: 1px solid #ececec;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.site-nav {
+	display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.site-nav .link {
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 .logo {
@@ -102,7 +126,6 @@ body {
 .hero {
 	background-color: var(--hero-bg-color);
 	text-align: center;
-	min-height: 600px;
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
@@ -144,11 +167,6 @@ body {
 	background-color: var(--hero-btn-active-bgc);
 }
 
-.features {
-	padding-top: 94px;
-	padding-bottom: 94px;
-}
-
 .features-subtitle {
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -162,10 +180,6 @@ body {
 .features-text {
 	margin: 0;
 	line-height: 1.71;
-}
-
-.activities {
-	padding-bottom: 94px;
 }
 
 .activities-title,
