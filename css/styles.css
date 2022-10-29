@@ -317,6 +317,10 @@ img {
 	color: var(--footer-contacts-color);
 }
 
+.address-list .item:not(:last-child) {
+	margin-bottom: 9px;
+}
+
 .button-portfolio {
 	padding: 6px 22px;
 	border-radius: 4px;
