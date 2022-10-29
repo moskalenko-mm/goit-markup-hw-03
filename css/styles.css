@@ -8,6 +8,8 @@
 	--hero-bg-color: #2f303a;
 	--hero-btn-active-bgc: #188ce8;
 	--footer-contacts-color: rgba(255, 255, 255, 0.6);
+	--header-border: #ececec;
+	--portfolio-content-border: #eeeeee;
 }
 
 body {
@@ -63,13 +65,17 @@ img {
 	margin: -1px;
 }
 
+.section.no-padding-top {
+	padding-top: 0;
+}
+
 .section {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
 
 .header {
-	border-bottom: 1px solid #ececec;
+	border-bottom: 1px solid var(--header-border);
 }
 
 .main-nav {
@@ -360,16 +366,10 @@ img {
 	gap: 30px;
 }
 
-/* .portfolio-item {
-	box-sizing: border-box;
-	background: #ffffff;
-	border: 1px solid #eeeeee;
-} */
-
 .portfolio-contents {
 	padding: 20px 24px;
 	box-sizing: border-box;
-	border-bottom: 1px solid #eeeeee;
-	border-left: 1px solid #eeeeee;
-	border-right: 1px solid #eeeeee;
+	border-bottom: 1px solid var(--portfolio-content-border);
+	border-left: 1px solid var(--portfolio-content-border);
+	border-right: 1px solid var(--portfolio-content-border);
 }
