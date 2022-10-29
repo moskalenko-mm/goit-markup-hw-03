@@ -164,8 +164,8 @@ img {
 }
 
 .hero-title {
-	margin-top: 0;
-	margin-bottom: 30px;
+	margin: 0 auto 30px auto;
+	width: 696px;
 
 	color: var(--primaty-white-color);
 	font-weight: 900;
